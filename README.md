@@ -44,7 +44,8 @@ Methods：
 
 ## 更新日志 Release Note
 
-*  V0.0.1 IIC1508 4路电机驱动的基本使用，包含驱动单路电机，驱动全部电机，停止电机等功能
+*  V0.0.2 修复library.properties文件中的名称：MDIIC1508。
+*  V0.0.1 IIC1508 4路电机驱动的基本使用，包含驱动单路电机，驱动全部电机，停止电机等功能。
 
 ## 联系我们 Contact Us
 * http://www.yfrobot.com.cn/wiki/index.php?title=%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC
