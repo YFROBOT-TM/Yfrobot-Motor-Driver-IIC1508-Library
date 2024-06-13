@@ -43,6 +43,7 @@ Methods：
 `md_iic1508.stopMotor(5);  // 电机M1/M2/M3/M4 停止`
 
 ## 更新日志 Release Note
+*  V0.0.4 修复example名称。
 *  V0.0.3 修复library.properties文件中的名称：Yfrobot Motor Driver IIC1508 Library。(无语)
 *  V0.0.2 修复library.properties文件中的名称：MDIIC1508。
 *  V0.0.1 IIC1508 4路电机驱动的基本使用，包含驱动单路电机，驱动全部电机，停止电机等功能。
