@@ -672,8 +672,8 @@ void MDIIC1508::setMotorSpeed(int pinA, int pinB, int speed) {
         analogWrite(pinB, 0);
     // 当速度小于0时，电机反转，将pinA设为速度的绝对值，pinB设为0。
     } else if (speed < 0) {
-        analogWrite(pinA, abs(speed));
-        analogWrite(pinB, 0);
+        analogWrite(pinB, abs(speed));
+        analogWrite(pinA, 0);
     // 当速度为0时，电机停止，将两个引脚都设为最高PWM值，模拟全速刹车效果。
     } else {
         analogWrite(pinA, 255);

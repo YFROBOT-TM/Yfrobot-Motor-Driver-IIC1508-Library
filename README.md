@@ -43,6 +43,8 @@ Methods：
 `md_iic1508.stopMotor(5);  // 电机M1/M2/M3/M4 停止`
 
 ## 更新日志 Release Note
+
+*  V0.0.5 修复反转程序错误。
 *  V0.0.4 修复example名称。
 *  V0.0.3 修复library.properties文件中的名称：Yfrobot Motor Driver IIC1508 Library。(无语)
 *  V0.0.2 修复library.properties文件中的名称：MDIIC1508。
